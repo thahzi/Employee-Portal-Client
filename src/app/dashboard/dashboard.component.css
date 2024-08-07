@@ -1,0 +1,13 @@
+#sidebar{
+    width: 252px;
+    background-color: green;
+    height: 88.5vh;
+}
+#maindiv1{
+    width: 100%;
+    background-color: rgb(58, 80, 80);
+    height: 150px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
