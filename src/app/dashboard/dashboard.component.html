@@ -2,8 +2,8 @@
     <!-- side-bar -->
      <div id="sidebar">
         <div class="mt-5 text-center text-light">
-            <h3>Dashboard</h3>
-            <h5>employee</h5>
+            <a routerLink="/dashboard" style="text-decoration: none; cursor: pointer;"><h3>Dashboard</h3></a>
+            <a routerLink="/employee" style="text-decoration: none; cursor: pointer;" ><h5>employee</h5></a>
         </div>
      </div>
      <!-- main -->
@@ -29,16 +29,16 @@
             </div>
         </div>
             <div class="col-md-4">
-                <div style="height: 400px; background-color: aqua;" class="rounded d-flex justify-content align-items-center flex-column">
+                <div style="height: 450px; background-color: aqua;" class="rounded d-flex justify-content align-items-center flex-column pt-2">
                     <!-- <img src="https://t3.ftcdn.net/jpg/07/25/29/80/360_F_725298029_rRBxqYqvAEubcXVpo7lqDV7xMFymWKPv.jpg" alt="no img" width="200px" height="200px" style="border-radius: 50%;">
                     <button class="btn text-center text-light">eidt admin details <i class="fa-solid fa-pen-nib"></i></button> -->
 
-                    <div class="d-flex justify-content align-items-center flex-column">
+                    <div class="d-flex justify-content align-items-center flex-column w-100 p-4 ">
                         <h5>update admin detailes</h5>
                         <img src="https://t3.ftcdn.net/jpg/07/25/29/80/360_F_725298029_rRBxqYqvAEubcXVpo7lqDV7xMFymWKPv.jpg" alt="no img" width="200px" height="200px" style="border-radius: 50%;">
 
-                        <form class="mt-4">
-                            <div class="mb-3">
+                        <form class="mt-4 w-100 ">
+                            <div class="mb-3 ">
                                 <input type="text" placeholder="admin name" class="form-control">
                             </div>
 
@@ -46,12 +46,19 @@
                                 <input type="text" placeholder="password" class="form-control">
                             </div>
 
-                            <div class="mb-3">
+                            <div class="mb-3 justify-content-between d-flex">
                                 <button class="btn btn-warning">cancel</button>
                                 <button class="btn btn-warning">update</button>
                             </div>
                         </form>
                     </div>
+
+                    <div style="height: 500px; width: 100%;background-color: rgb(37, 203, 209);" class="rounded d-flex justify-content-center align-items-center flex-column pt-2 ">
+
+                        <h3 class="my-5">employee count : 4</h3>
+                        
+                    </div>
+
 
                 </div>
             </div>
